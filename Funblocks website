@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Funblocks | restudio</title>
+
+    <!-- Tiny5 Font -->
+    <link href="https://fonts.cdnfonts.com/css/tiny5" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar img {
+            height: 40px;
+            margin-right: 15px;
+        }
+
+        .navbar h1 {
+            font-family: 'Tiny5', sans-serif;
+            font-size: 20px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .page-title {
+            font-family: 'Tiny5', sans-serif;
+            font-size: 28px;
+            margin: 20px 20px 10px 20px;
+            color: #222;
+            text-align: center;
+        }
+
+        hr {
+            margin: 0 20px 30px 20px;
+            border: 1px solid #ccc;
+        }
+
+        .content-section {
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
+        .plain-text p {
+            margin: 1.2em 0;
+            color: #222;
+            font-size: 1rem;
+        }
+
+        .footer {
+            text-align: left;
+            padding: 10px 20px;
+            color: #666;
+            border-top: none;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="https://i.postimg.cc/yYCszSyc/swrh-restudio.png" alt="Logo">
+        <h1>About Funblocks</h1>
+    </div>
+
+    <!-- Page Title -->
+    <h1 class="page-title">About Funblocks</h1>
+    <hr>
+
+    <!-- Main content -->
+    <div class="content-section plain-text">
+        <p><strong>About Restudio Funblocks:</strong></p>
+        <p>Restudio Funblocks is an interactive development environment that resembles Scratch in its general appearance, but it relies at its core on a scripting language called Roland Script 2.0.</p>
+
+        <p><strong>The fundamental difference:</strong> Although the program contains a "blocks" system (snap-together pieces) to facilitate understanding, it does not officially rely on them as the primary programming method. Instead, once you start creating a new block, you immediately transition to dealing with Roland Script or the text editor.</p>
+
+        <p>In other words, the blocks are just an initial interface, but the real depth and customization happens through writing Roland Script 2.0 commands, which is a relatively easy programming language but requires prior learning.</p>
+
+        <p><strong>Example workflow:</strong></p>
+        <p>When creating a new block, you are asked to choose the type of block you want, such as:</p>
+        <p>Variable<br>
+        String<br>
+        Boolean<br>
+        Comment<br>
+        Decimal variable<br>
+        Conditions</p>
+
+        <p>Once you select the type, you immediately move to writing its code using Roland Script.</p>
+    </div>
+
+    <div class="footer">© Restudio Games</div>
+
+</body>
+</html>
